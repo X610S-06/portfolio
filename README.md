@@ -1,4 +1,3 @@
-# portfolio
-My Portfolio 
+# Portfolio
 
 Minimal display of ME.
