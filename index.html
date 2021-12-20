@@ -307,7 +307,7 @@
                     <div class="col-md-12">
                       <fieldset>
                         <button type="submit" id="form-submit" class="button">
-                          <a href="/mes.html">Send Message</a>
+                          <a href="/index.html">Send Message</a>
                         </button>
                       </fieldset>
                     </div>
@@ -327,9 +327,9 @@
     <script src="public/js/isotope.min.js"></script>
     <script src="public/js/owl-carousel.js"></script>
     <script src="public/js/lightbox.js"></script>
-    <script src="public/js/custom.js"></script>
+    <!-- <script src="public/js/custom.js"></script> -->
     <script>
-      //according to loftblog tut
+    
       $(".main-menu li:first").addClass("active");
 
       var showSection = function showSection(section, isAnimate) {
@@ -377,6 +377,10 @@
       $(window).scroll(function() {
         checkSection();
       });
+
+      $("#form-submit").click(function(){
+        alert("Thanks for Connecting")
+      })
     </script>
   </body>
 </html>
