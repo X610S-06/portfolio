@@ -1,3 +1,4 @@
 # Portfolio
 
-Minimal display of ME.
+This exemplifies my skills, projects and experiences.
+
